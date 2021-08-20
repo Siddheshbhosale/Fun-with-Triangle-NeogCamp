@@ -7,17 +7,18 @@ function TakeAquiz() {
 
     const correctAns = ["option1", "option2", "option1", "option1", "option1", "option2", "option2", "option3", "option3", "option3" ];
     const [score,setscore] = useState(0)
-    const { register, handleSubmit, errors}= useForm();
+    const { register, handleSubmit}= useForm();
     var correct=0,index=0;
 
     const onSubmit = (data) => {
       Object.values(data).map((value)=>{
-        if(value ===correctAns[index]){
-          correct++;
+        if(value === correctAns[index]){
+          correct++
         }
         index++;
-        })
-    setscore(correct);
+        return 0;
+      });
+      setscore(correct);
     }
 
     return (
@@ -132,7 +133,6 @@ function TakeAquiz() {
 
                 <div className="radio ow">
                     <label className="label question">10. If a triangle has sides of 2cm, 3cm, 4cm, what is the type of triangle?</label>
-                    
                     <label htmlFor="radio23" className="label"><input required type="radio" id="radio23" name="que10" value="option1" {...register('que10')}/>
                     Equilateral</label>
                     

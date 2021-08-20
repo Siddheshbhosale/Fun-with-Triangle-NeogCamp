@@ -22,20 +22,20 @@ function App(){
                     {LinktoComponent[component]}
             </div>
             <footer id="footer">
-                <ul class="footer-list">
-                    <li class="list-item"><a target="_blank" href="bhosalesiddhesh9@gmail.com" class="footer-links">
-                        <i class="fa fa-envelope" aria-hidden="true"></i></a>
+                <ul className="footer-list">
+                    <li className="list-item"><a target="_blank" href="bhosalesiddhesh9@gmail.com" className="footer-links">
+                        <i className="fa fa-envelope" aria-hidden="true"></i></a>
                     </li>
-                    <li class="list-item"><a href="https://github.com/Siddheshbhosale">
-                        <i class="fab fa-github" aria-hidden="true"></i>
+                    <li className="list-item"><a href="https://github.com/Siddheshbhosale">
+                        <i className="fab fa-github" aria-hidden="true"></i>
                     </a>
                     </li>
-                    <li class="list-item"><a href="https://www.linkedin.com/in/siddheshbhosale">
-                        <i class="fab fa-linkedin-in"></i>
+                    <li className="list-item"><a href="https://www.linkedin.com/in/siddheshbhosale">
+                        <i className="fab fa-linkedin-in"></i>
                     </a>
                     </li>
-                    <li class="list-item"><a href="">
-                        <i class="fas fa-briefcase"></i>
+                    <li className="list-item"><a href="https://github.com/Siddheshbhosale" >
+                        <i className="fas fa-briefcase"></i>
                     </a>
                     </li>
                 </ul>
