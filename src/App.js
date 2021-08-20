@@ -26,15 +26,15 @@ function App(){
                     <li class="list-item"><a target="_blank" href="bhosalesiddhesh9@gmail.com" class="footer-links">
                         <i class="fa fa-envelope" aria-hidden="true"></i></a>
                     </li>
-                    <li class="list-item"><a target="_blank" href="https://github.com/Siddheshbhosale">
+                    <li class="list-item"><a href="https://github.com/Siddheshbhosale">
                         <i class="fab fa-github" aria-hidden="true"></i>
                     </a>
                     </li>
-                    <li class="list-item"><a target="_blank" href="https://www.linkedin.com/in/siddheshbhosale">
+                    <li class="list-item"><a href="https://www.linkedin.com/in/siddheshbhosale">
                         <i class="fab fa-linkedin-in"></i>
                     </a>
                     </li>
-                    <li class="list-item"><a target="_blank" href="">
+                    <li class="list-item"><a href="">
                         <i class="fas fa-briefcase"></i>
                     </a>
                     </li>

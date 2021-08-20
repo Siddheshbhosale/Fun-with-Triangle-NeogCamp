@@ -5,7 +5,6 @@ import './CheckHypotenusea.css'
 function CheckHypotenuse() {
     const [a, seta] = useState(0);
     const [b, setb] = useState(0);
-    const [c, setc] = useState(0);
     const [calculation, setcalculation] = useState("value");
 
     function AreaCalculation(){
