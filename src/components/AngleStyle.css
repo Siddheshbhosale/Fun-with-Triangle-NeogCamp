@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+h1{
+    font-family: 'Abril Fatface', cursive;
+    margin: 10px;
+}
+h2{
+    letter-spacing: 0.05rem;
+    margin: 20px;
+}
+.triangleimage{
+    width: 17rem;
+    height: 9rem;
+    background-image: url(https://d1whtlypfis84e.cloudfront.net/guides/wp-content/uploads/2018/03/30053703/2000px-Simple_triangle_with_angles_marked_01.svg_-300x164.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+form{
+    margin: auto;
+    max-width:min(800px,80vh);
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    max-width:min(800px,80vh);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+input{
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 4rem;
+    height: 2.5rem;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 1.5rem;
+}
+
+.submit{
+    display: block;
+    margin: 2rem auto;
+    height: 3rem;
+    width: 6rem;
+}
+.submit:hover {
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+}
+
+  .Output{
+      margin: auto;
+      font-size: 1.8rem;
+      width: fit-content;
+      text-decoration: underline red;
+      font-style: italic;
+      font-weight: 540;
+      background-color: yellow;
+      padding: 5px;
+      border: 2px solid black;
+      border-radius: 10px;
+      text-align: center;
+  }

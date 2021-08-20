@@ -1,0 +1,57 @@
+.component3{
+        min-height: 100vh;
+        max-height: 100%;
+        margin: auto;
+        background:url(https://img.freepik.com/vetores-gratis/fundo-colorido-com-triangulos-3d_23-2148402810.jpg?size=626&ext=jpg);
+        background-size: cover;
+        background-position: center;
+}
+
+.formulaSelectionForm{
+    text-align: left;
+}
+
+.areaCalBlock{
+display: none;
+}
+
+.formQuiz{
+    max-width: 95vh;
+    text-align: left;
+}
+.formQuiz label.question{
+    display: block;
+}
+.radio input{
+cursor: pointer;
+padding: 0.5rem 0.5rem;
+display: inline-block;
+}
+
+.radio{
+    padding: 0.5rem 1rem;
+    white-space: normal;
+}
+
+.radio label{
+    cursor: pointer;
+    padding: 0.5rem 0.5rem 0.5rem 0;
+    display: inline-block;
+}
+
+.radio input {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    display: inline;
+}
+
+.ow{
+    background-color: #81b8fa;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0.003px solid black;
+}
+.error{
+    display: none;
+}

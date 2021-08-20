@@ -1,0 +1,97 @@
+.component2{
+    min-height: 100vh;
+    max-height: 100%;
+    margin: auto;
+    background:url(https://img.freepik.com/vetores-gratis/fundo-colorido-com-triangulos-3d_23-2148402810.jpg?size=626&ext=jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bg1{
+    height: 9rem;
+    background-image: url("./1-base-height.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.bg2{
+    height: 9.5rem;
+    width: 20rem;
+    background-image: url("./3-Side.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.bg3{
+    height: 10rem;
+    width: 20rem;
+    background-image: url("./2-side_and_angle.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.Option{
+    max-width:min(900px,85vh);
+    margin: 2rem auto;
+    margin-top: 0px;
+}
+
+
+
+label{
+    width: fit-content;
+    display: flex;
+    margin: 0.5rem;
+    font-size: 1.5rem;
+}
+#calArea,#calArea2,#calArea3{
+    margin: 5px 10px;
+}
+
+.choice input {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    display: inline;
+}
+
+.choice{
+    white-space: normal;
+}
+.contain{
+    max-width:min(900px,85vh);
+    display: flex;
+    flex-direction: column;
+}
+
+.submit{
+    width: fit-content;
+    margin-bottom: 10px;
+}
+
+.display{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    text-align:center;
+    margin:5px auto;
+}
+
+.input2{
+    max-width:min(800px,80vh);
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    margin: 10px auto;
+}
+
+.space{
+    padding: 30px;
+}

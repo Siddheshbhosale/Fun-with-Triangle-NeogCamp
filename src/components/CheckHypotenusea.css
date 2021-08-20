@@ -1,0 +1,10 @@
+.bghypotenuse{
+    width: 12rem;
+    height: 12rem;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Trigonometry_triangle.svg/993px-Trigonometry_triangle.svg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
