@@ -80,6 +80,7 @@ button:hover{
     height: 5rem;
     width: fit-content;
     float: none;
+    transition: none;
 }
 .submit:hover {
     background-color: transparent;
