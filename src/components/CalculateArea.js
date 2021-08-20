@@ -10,11 +10,11 @@ function CalculateArea() {
 
     function AreaCalculation(){
         if(option===1){
-            const ans= 0.5 * Number(a) * Number(b)
+            let ans= 0.5 * Number(a) * Number(b)
             setcalculation(Math.round(ans * 10000000000) / 10000000000);
         }
-        else if(option==2){
-            const ans= (Number(a) + Number(b) + Number(c)) / 2;
+        else if(option===2){
+            let ans= (Number(a) + Number(b) + Number(c)) / 2;
             ans=Math.sqrt(
                 ans *
                   (ans - Number(a)) *
@@ -23,7 +23,7 @@ function CalculateArea() {
               )
             setcalculation(Math.round(ans * 10000000000) / 10000000000);
         }
-        else if (option==3){
+        else if (option===3){
             const ans= 0.5 *
             Number(a) *
             Number(b) *
