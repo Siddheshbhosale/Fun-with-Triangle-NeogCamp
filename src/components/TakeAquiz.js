@@ -4,21 +4,9 @@ import './TakeAquiz.css'
 function TakeAquiz() {
 
     const correctAns = ["option1", "option2", "option1", "option1", "option1", "option2", "option2", "option3", "option3", "option3" ];
-    
-     function Totalscore(){
-        // let index=0;
-        // for(let entry of form[0]){
-        // if(entry[1] == correctAns[index]){
-        //     console.log("work");
-            
-        // }
-        // else{
-        //     console.log("No work");
-        // }
-        //     index++;
-        // }
+    function Totalscore(){
     }
-    //  {console.log(forms[0])}
+    
     return (
         <div className="component3">
              <div className="maintitle">
@@ -26,7 +14,6 @@ function TakeAquiz() {
                 <button>Go back to home page</button></a>
                 <h1>Let's have a Quiz</h1>
              </div>
-              
                 <form className="formQuiz">
 
                     <div  class="radio ow">

@@ -4,7 +4,7 @@ import { useState } from "react";
 import LinktoComponent from './LInktoComponent';
 
 function App(){
-    const [component,setcomponent]=useState("Check Hypotenuse");
+    const [component,setcomponent]=useState("");
     return(
         <div className="container">
             <div id="FirstPage">
