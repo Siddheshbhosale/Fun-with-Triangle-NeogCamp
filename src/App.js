@@ -8,7 +8,7 @@ function App(){
     return(
         <div className="container">
             <div id="FirstPage">
-                <h1 className="MainHeading">welcome to world of triangle</h1>
+                <h1 className="MainHeading">welcome to the world of triangle</h1>
                 <div className="Buttoncontainer">
                     <div className="Button">
                     {Object.keys(LinktoComponent).map((value)=>(
